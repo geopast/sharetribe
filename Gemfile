@@ -149,6 +149,9 @@ group :test do
   gem 'fake_stripe'
 end
 
+group :production do
+  gem 'pg'
+end
 group :development, :test do
   gem 'pry-byebug'
 end

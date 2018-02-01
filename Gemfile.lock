@@ -357,6 +357,7 @@ GEM
       paypal-sdk-core (~> 0.3.0)
     paypal-sdk-permissions (1.96.4)
       paypal-sdk-core (~> 0.3.0)
+    pg (1.0.0)
     possibly (1.0.1)
     powerpack (0.1.1)
     premailer (1.10.4)
@@ -634,6 +635,7 @@ DEPENDENCIES
   passenger (~> 5.1.4)
   paypal-sdk-merchant (~> 1.116.0)
   paypal-sdk-permissions (~> 1.96.4)
+  pg
   possibly (~> 1.0.1)
   premailer (~> 1.10.4)
   pry-byebug
@@ -678,4 +680,4 @@ RUBY VERSION
    ruby 2.3.4p301
 
 BUNDLED WITH
-   1.15.4
+   1.16.0
